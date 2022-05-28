@@ -4,7 +4,7 @@ class PhrasOMat {
 	public static void main(String args[]) {
 		 String[] wortListEins = {
 				"verlässliche",
-				"erfolhsorinetierte",
+				"erfolgsorinetierte",
 				"verteilte",
 				"zielgerichtete"
 		};
@@ -34,7 +34,7 @@ class PhrasOMat {
 		int rand3 = (int) (Math.random() * dreiLength);
 
 
-		String phrase = wortListEins[rand1] + wortListeZwei[rand2] + wortListeDrei[rand3];
+		String phrase = wortListEins[rand1]+ " " + wortListeZwei[rand2] + wortListeDrei[rand3];
 
 		System.out.println(phrase);
 	}
