@@ -1,6 +1,6 @@
 package zeichen;
 
-public class Zeichen {
+public class zeichen {
 	public static void main(String[] args) {
 		char c;
 		int d = 0;
