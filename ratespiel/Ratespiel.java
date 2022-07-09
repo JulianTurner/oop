@@ -1,13 +1,12 @@
 package ratespiel;
 
-
 public class Ratespiel {
 	Spieler s1;
 	Spieler s2;
 	Spieler s3;
 
 	public void starteSpiel() {
-		
+
 		s1 = new Spieler();
 		s2 = new Spieler();
 		s3 = new Spieler();
@@ -52,7 +51,7 @@ public class Ratespiel {
 			}
 
 			if (s1hatRecht || s2hatRecht || s3hatRecht) {
-				System.out.println("Wir haben einen Gewinner!"); 
+				System.out.println("Wir haben einen Gewinner!");
 				System.out.println("Spieler 1 hat richtig geraten? " + s1hatRecht);
 				System.out.println("Spieler 2 hat richtig geraten? " + s2hatRecht);
 				System.out.println("Spieler 3 hat richtig geraten? " + s3hatRecht);
