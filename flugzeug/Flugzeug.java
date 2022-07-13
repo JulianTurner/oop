@@ -1,5 +1,6 @@
 package flugzeug;
 
+
 public class Flugzeug {
 	private static int anzahlFlugzeuge;
 	private String fluggesellschaft;
